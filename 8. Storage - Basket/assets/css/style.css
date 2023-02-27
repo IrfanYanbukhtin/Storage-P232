@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Cars{
+    margin-top: 3rem;
+}
+
+h5,p{
+    margin: 0;
+}
+
+.item-box {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #cfcfcf;
+}
+
+.item-box img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bottom{
+    padding: 10px 0;
+}
+
+.top {
+    position: relative;
+}
+
+.top i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #CA1016;
+    padding: 20px 0;
+}
+
+header a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.active{
+    color: red !important;
+}
